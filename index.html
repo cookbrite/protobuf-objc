@@ -76,18 +76,23 @@ This project is based on an implementation of Protocol Buffers from Google.  See
 
 <p>4. <code>brew instal protobuf</code></p>
 
-<p>5. <code>git clone git@github.com:alexeyxo/protobuf-objc.git</code></p>
+<p>5. <code>ln -s /usr/local/Cellar/protobuf/2.5.0/bin/protoc /usr/local/bin</code> (optional)
 
-<p>6. <code>./build.sh</code></p>
+<p>6. <code>git clone git@github.com:alexeyxo/protobuf-objc.git</code></p>
+
+<p>7. <code>./build.sh</code></p>
+
+<p>8. Add <code>/src/runtime/ProtocolBuffers.xcodeproj</code> in your project.</p>
 
 <p>Installing from CocoaPods</p>
 
-<p>7. <code>cd &#60your .xcodeproj directory&#62</code></p>
+<p>...</p>
 
-<p>8. <code>echo -e "platform :ios , 6.0 \npod 'ProtocolBuffers', '1.2' " > Podfile</code></p>
+<p>6. <code>cd &#60your .xcodeproj directory&#62</code></p>
 
-<p>9. <code>pod install</code></p>
+<p>7. <code>echo -e "platform :ios , 6.0 \npod 'ProtocolBuffers', '1.2' " > Podfile</code></p>
 
+<p>8. <code>pod install</code></p>
 
 <h2>
 <a name="compile-proto-files" class="anchor" href="#compile-proto-files"><span class="octicon octicon-link"></span></a>Compile ".proto" files.</h2>
