@@ -19,6 +19,14 @@
   </head>
 
   <body>
+  <div id="fb-root"></div>
+  <script>(function(d, s, id) {
+    var js, fjs = d.getElementsByTagName(s)[0];
+    if (d.getElementById(id)) return;
+    js = d.createElement(s); js.id = id;
+    js.src = "//connect.facebook.net/ru_RU/sdk.js#xfbml=1&appId=240420112831312&version=v2.0";
+    fjs.parentNode.insertBefore(js, fjs);
+  }(document, 'script', 'facebook-jssdk'));</script>
 
     <header>
       <div class="container">
@@ -55,6 +63,7 @@
        width="246px"
         height="30px"></iframe>
       <section id="main_content">
+      <p><div class="fb-like" data-href="http://protobuf.axo.io" data-layout="button_count" data-action="recommend" data-show-faces="true" data-share="true"></div></p>
         <p>Protocol Buffers for Objective-C</p>
 
 <p>An implementation of Protocol Buffers in Objective C.</p>
